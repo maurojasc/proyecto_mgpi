@@ -21,7 +21,7 @@ public class Ing_sw_2019 {
             numero = leerNumero();
         }
         System.out.println("\nFin del programa");
-        System.out.println("\nActualizacion");
+        System.out.println("\nActualizacion").x;
     }
 
     private static void mostrarFactorial(int num) {
