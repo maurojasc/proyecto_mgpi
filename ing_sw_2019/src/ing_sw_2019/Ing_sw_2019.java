@@ -15,6 +15,7 @@ public class Ing_sw_2019 {
 
     public static void main(String[] args) {
         System.out.println(factorial(5));
+        System.out.println.("Revisión Mauricio Rojas C.");
         int numero = leerNumero();
         while (numero > -1) {
             mostrarFactorial(numero);
