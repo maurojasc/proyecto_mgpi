@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class Ing_sw_2019 {
 
     public static void main(String[] args) {
+        System.out.println(factorial(5));
         int numero = leerNumero();
         while (numero > -1) {
             mostrarFactorial(numero);
@@ -46,5 +47,13 @@ public class Ing_sw_2019 {
         num = sc.nextInt();
         return num;
     }
+    
+    static int factorial(int numero){
+          if ( numero <= 1 ) {
+              return 1;
+          } else {
+              return numero*factorial(numero-1);
+          }
+     }
 
 }
